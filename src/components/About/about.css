@@ -1,0 +1,27 @@
+.about-container{
+    align-content: center;
+    display: flex;
+   }
+   
+ 
+ .about-text{
+     
+     text-align: center;
+    
+ }
+ 
+ .about-heading{
+     font-size: 8rem;
+     color: orangered;
+ }
+ 
+ .ourStory-para {
+     font-size: 3rem;
+     padding-left: 10rem;
+     padding-right: 10rem;
+ }
+
+ .aboutImg{
+    width: 50rem;
+    height: 50rem;
+ }

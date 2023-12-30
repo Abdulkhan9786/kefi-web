@@ -1,0 +1,45 @@
+.navbar {
+    background:  rgb(255, 209, 57);
+    height: 5rem;
+    width: 100vm;
+    max-width:100%;
+    margin: 0 auto ;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+   
+
+}
+.logo {
+    object-fit: cover;
+    height: 6rem;
+    width: 10rem;
+}
+.navbarMenuItemList{
+    color:orangered;
+    margin: 1rem;
+    cursor: pointer;
+
+}
+.navbarMenuItem{
+    margin: 1rem;
+    font-size:x-large;
+    
+}
+
+.navbarMenuItem:hover{
+    text-decoration-line: underline;
+    text-decoration-color: orangered;
+    text-decoration-thickness: 0.2rem;
+}
+
+.navbarMenuIcons{
+    color: maroon;
+    font-size: xx-large;
+    cursor: pointer;
+    
+}

@@ -1,9 +1,14 @@
+import About from "./components/About/about";
+import Home from "./components/Home/home";
+import Navbar from "./components/NavBar/navbar";
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Kefi's Kitchen Coming soon </h1>
+      <Navbar/>
+      <Home/>
+      <About/>
     </div>
   );
 }

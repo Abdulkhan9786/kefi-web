@@ -1,4 +1,5 @@
 .about-container{
+    padding-top: 3rem;
     align-content: center;
     display: flex;
    }
@@ -7,6 +8,7 @@
  .about-text{
      
      text-align: center;
+     padding-top: 15rem;
     
  }
  
@@ -22,6 +24,6 @@
  }
 
  .aboutImg{
-    width: 50rem;
-    height: 50rem;
+    width: 60rem;
+    height: 60rem;
  }

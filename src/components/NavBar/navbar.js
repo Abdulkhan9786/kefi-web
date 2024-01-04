@@ -12,7 +12,8 @@ import MenuIcon from '@mui/icons-material/Menu';
    
     return(
        <nav className="navbar">
-        <img src={logo} alt="Logo goes here" className="logo"/>
+        <a  href="#top" >
+        <img src={logo} alt="Logo goes here" className="logo"/></a>
         <div className="navbarMenuItemList">
             
             <Link  activeClass="active" to='ourStory' spy={true} smooth={true} offset={-100} duration={500}className="navbarMenuItem" >Our Story </Link>

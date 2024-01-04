@@ -7,7 +7,7 @@ const Whyus = ()=>{
     
   
     return(
-      <section id='whyUs'>
+      <section id='whyus'>
         
          
       <div className="whyus-container" >

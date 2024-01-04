@@ -9,10 +9,11 @@
     text-align: center;
    }
 .order-heading{
-    
+    text-align: center;
     font-size: 8rem;
     color: orangered;
     padding-top: 3rem;
+    font-weight: bold;
 }
 
 .order-text{

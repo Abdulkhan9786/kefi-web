@@ -1,30 +1,70 @@
 .bottomNavbar {
-    background: yellow;
-    height: 5rem;
-    width: 100vm;
-    max-width:100%;
-    margin: 0 auto ;
-    padding: 1rem 2rem;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    position: sticky;
-    top: 0;
-    z-index: 3;
-    
+    position:relative;
+    bottom: 0;
+  left: 0;
+    background-color: rgb(255, 166, 0); 
+    width:100%;
+    justify-content: start;
+   
 }
 
-.bottomNavbarMenuItemList{
-    color:red;
-    margin: 1rem;
+.bottomNavbarMenu{
+    margin: 1.5rem;
     cursor: pointer;
+    padding: 20px;
     display: flex;
+    justify-content: space-evenly;
+}
 
+.heading{
+    font-size: 2rem;
+    color:red;
+    font-weight: bold;
+    text-align: center;
 
 }
 
-.bottomNavbarMenuItem{
-    margin: 1rem;
-    font-size:2rem;
+.footer{
+   
+    color: white;
+    text-align: center;
+}
+
+.linkstyle{
+    text-decoration: none;
+        color: white; 
+        font-size: 1.5rem;
+}
+
+.sociallinks{
+    justify-content: start;
+}
+
+.quicklinks{
+    justify-content: start;
+}
+
+@media screen  and (max-width:840px) {
+    
+    
+    .bottomNavbarMenu{
+        padding: 1rem;
+        margin: 0.2rem;
+    }
+   
+    .bottomNavbar{
+       
+    }
+    .heading{
+        font-size: 1rem;
+    }
+
+    .linkstyle{
+        font-size: 0.6rem;
+    }
+    .footer{
+        margin-top: 1px;
+        font-size: 0.3rem;
+    }
     
 }

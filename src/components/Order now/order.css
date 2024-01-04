@@ -16,8 +16,7 @@
 
 .order-text{
     font-size: 2.3rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    
 }
 .order-img{
     height: 25rem;
@@ -25,6 +24,30 @@
 }
 
 .whatsapp-img{
-    height: 6rem;
-    width: 14rem;
+    height: 5rem;
+    width: 15rem;
+}
+
+@media screen  and (max-width:840px) {
+    .order-img{
+       
+        height: 10rem;
+        width: 10rem;
+        
+    }
+    
+    .order-heading{
+        font-size: 2rem;
+    }
+
+    .order-text{
+        font-size: 0.5rem;
+        font-weight: bold;
+        
+    }
+    .whatsapp-img{
+        height: 2rem;
+        width: 6rem;
+    }
+    
 }

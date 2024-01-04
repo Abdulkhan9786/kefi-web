@@ -7,7 +7,7 @@ const Whyus = ()=>{
     
   
     return(
-      <section id='whyUs'>
+      <section id='whyus'>
       <div className="whyus-container" >
         <img className="whyus-image" src={whyImage} alt="why choose us "></img>
 

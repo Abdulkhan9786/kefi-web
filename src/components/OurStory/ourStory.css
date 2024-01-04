@@ -28,3 +28,23 @@
     height: 60rem;
     width: 40rem;
 } 
+
+@media screen  and (max-width:840px) {
+    .our-story-image{
+       
+        height: 25rem;
+        width: 15rem;
+        padding-top: 10rem;
+    }
+    
+    .ourStory-heading{
+        font-size: 2rem;
+    }
+
+    .ourStory-para{
+        font-size: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+}

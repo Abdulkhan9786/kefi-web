@@ -18,14 +18,14 @@ const About = ()=>{
     is on delivering complete home-cooked meals in a thali, meticulously packed 
     and delivered fresh to your office every single day. Packaged in an eco-friendly, 
     biodegradable lunchbox designed to resemble a traditional thali, our offering includes 
-    a wholesome assortment of dal, rice, sabji, salad, and chapati.
-    </p>
-
-<p className="about-para">Crafted to suit your taste buds, our meals not only deliver a delightful dining experience 
+    a wholesome assortment of dal, rice, sabji, salad, and chapati.Crafted to suit your taste buds, our meals not only deliver a delightful dining experience 
   but also come at an affordable price. Each dish is prepared hygienically, 
   aiming to replicate the nutrition and warmth of a home-cooked meal. 
-  Our mission is to provide you with a healthy, flavorful, and homely 
-  meal option, making your lunch choices both convenient and fulfilling, all within a budget-friendly range.</p>
+    </p>
+
+<p className="about-para">
+   <p className="about-mission">Our mission is to provide you with a healthy, flavorful, and homely 
+  meal option, making your lunch choices both convenient and fulfilling, all within a budget-friendly range.</p> </p>
 
   </div>
 

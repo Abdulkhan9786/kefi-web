@@ -1,33 +1,30 @@
-.about-container{
-    padding-top: 3rem;
-    align-content: center;
+.ourStory-container{
+   align-content: center;
+    padding-top: 5rem;
     display: flex;
-   }
+    
+}
    
- 
- .about-text{
+.ourStory-text{
      
      text-align: center;
      padding-top: 5rem;
     
- }
+}
  
- .about-heading{
+ .ourStory-heading{
      font-size: 8rem;
      color: orangered;
  }
  
- .about-para {
+ .ourStory-para {
      font-size: 2.3rem;
      padding-left: 10rem;
      padding-right: 10rem;
  }
 
- .aboutImg{
-    width: 60rem;
-    height: 60rem;
- }
+.our-story-image{
 
- .hindi-about{
-    color: orangered;
- }
+    height: 60rem;
+    width: 40rem;
+} 

@@ -1,27 +1,37 @@
 .whyus-container{
     display: flex;
-    align-content: flex-start;
+    align-content: center;
+    background-color: rgb(255, 166, 0);
+   
 
 }
 .whyus-image{
     width: 800px;
     height: 600px;
+    
+}
+.whyus-text{
+    align-content: center;
+    padding-right: 3rem;
 }
 
-.whyus-text{
-    flex-direction: column;
-    align-items: start;
-}
 .whyus-heading{
     font-size: 8rem;
+    color: rgb(255, 30, 0);
     text-align: center;
-    align-content: start;
 }
 
+.point-heading{
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
 .whyus-para{
     font-size: 2rem;
-    padding-right: 5rem;
-    text-align: center;
+    text-align: justify;
+}
+.point-desc{
+    font-size: 2rem;
 }
 
 

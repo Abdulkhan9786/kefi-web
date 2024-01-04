@@ -1,5 +1,5 @@
 .navbar {
-    background:  rgb(255, 209, 57);
+    background: white;
     height: 5rem;
     width: 100vm;
     max-width:100%;
@@ -20,14 +20,15 @@
     width: 10rem;
 }
 .navbarMenuItemList{
-    color:orangered;
+    color:red;
     margin: 1rem;
     cursor: pointer;
+
 
 }
 .navbarMenuItem{
     margin: 1rem;
-    font-size:x-large;
+    font-size:2rem;
     
 }
 

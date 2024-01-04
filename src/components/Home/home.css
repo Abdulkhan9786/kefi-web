@@ -1,25 +1,11 @@
 
 .home-container{
    align-content: center;
-
+   background-color: rgb(255, 191, 0);
   }
   
 
-.ourStory{
-    
-    text-align: center;
-   
-}
 
-.home-heading{
-    font-size: 8rem;
-    color: orangered;
-}
 
-.ourStory-para {
-    font-size: 3rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
-}
 
 

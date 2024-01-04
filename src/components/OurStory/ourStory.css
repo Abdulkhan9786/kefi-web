@@ -1,50 +1,58 @@
 .ourStory-container{
-   align-content: center;
-    padding-top: 5rem;
     display: flex;
     
 }
    
-.ourStory-text{
-     
-     text-align: center;
-     padding-top: 5rem;
-    
-}
- 
  .ourStory-heading{
      font-size: 8rem;
      color: orangered;
+     text-align: center;
+     padding-top: 10rem;
+     font-weight: bold
  }
  
  .ourStory-para {
      font-size: 2.3rem;
      padding-left: 10rem;
      padding-right: 10rem;
+     padding-top: 5rem;
+     text-align: right;
  }
 
 .our-story-image{
-
-    height: 60rem;
+    height: 50rem;
     width: 40rem;
 } 
 
 @media screen  and (max-width:840px) {
-    .our-story-image{
-       
-        height: 25rem;
-        width: 15rem;
-        padding-top: 10rem;
-    }
-    
+.ourStory-container{
+    justify-content: center;
+    display: flex;
+}
+
     .ourStory-heading{
         font-size: 2rem;
+        color: orangered;
+        text-align: center;
+        padding-top: 3rem;
+        font-weight: bold;
     }
+    
+    .ourStory-para {
+        font-size: 0.8rem;
+        padding-top: 0.1rem;
+        padding-left: 0.1rem;
+        padding-right: 0.2rem;
+        text-align: right;
+        
+    }
+   
+   .our-story-image{
+        padding-top: 1.5rem;
+       height: 15rem;
+       width: 10rem;
 
-    .ourStory-para{
-        font-size: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
+   } 
+   
     
 }

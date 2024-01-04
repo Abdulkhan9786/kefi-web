@@ -1,14 +1,17 @@
 .whyus-container{
-    display: flex;
     align-content: center;
     background-color: rgb(255, 166, 0);
    
 
 }
 .whyus-image{
-    width: 800px;
-    height: 600px;
+    width: 30rem;
+    height: 30rem;
+    padding-right: 1rem;
     
+}
+.whyus-contain{
+    display: flex;
 }
 .whyus-text{
     align-content: center;
@@ -22,16 +25,16 @@
 }
 
 .point-heading{
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     
 }
 .whyus-para{
     font-size: 2rem;
-    text-align: justify;
+    text-align: center;
 }
 .point-desc{
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 
@@ -42,6 +45,11 @@
         width: 10rem;
         
     }
+
+    .whyus-text{
+        padding-right: 1rem;
+        align-content: center;
+    }
     
     .whyus-heading{
         font-size: 2rem;
@@ -50,8 +58,6 @@
     .whyus-para{
         font-size: 0.5rem;
         font-weight: bold;
-        
-        padding-right: 1rem;
     }
     .point-heading{
         font-size: 0.5rem;

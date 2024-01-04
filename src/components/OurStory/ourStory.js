@@ -7,24 +7,20 @@ const OurStory = ()=>{
   
     return(
       <section id='ourStory'>
-    <div className="ourStory-container">
-      <img className="our-story-image" src={lunchbox} alt="Indian Lunchbox "></img>
-    <div className="ourStory-text">
-    <text className="ourStory-heading">  Our Story </text>
-    <p className="ourStory-para"> I conceptualized this idea approximately 2-3 years ago, inspired by the recurring scenario 
-of my friends visiting me on weekends and expressing a desire for wholesome, home-cooked meals. 
-Upon inquiring about their lunch choices, the common response was often limited to canteen dosas 
-or unsatisfactory mess food. Recognizing the widespread challenge faced by many bachelors 
-in obtaining quality meals, with options limited to mess facilities, food delivery apps
- like Swiggy and Zomato, or hiring a cook, I saw an opportunity to address this need.     </p>
-
- <p className="ourStory-para">Motivated by the vision of providing a convenient and delectable solution, 
-  I conducted a modest market research. The findings reinforced the demand for a 
-  service that offers home-cooked, delicious, and budget-friendly meals. With this insight, 
-  I took the initiative to establish my own lunch box delivery service. 
-  The aim was to fill the gap in the market, catering specifically to individuals 
-  seeking a reliable source of tasty and wholesome homemade meals, delivered right to their doorstep.</p>
-  </div>
+       
+       <div className="ourStory-heading">  Our Story </div>
+      <div className="ourStory-container">
+        <img className="our-story-image" src={lunchbox} alt="Indian Lunchbox "></img>
+      <p className="ourStory-para"> 
+          In 2019, when friends visited me on weekends, they'd request a break from the monotony 
+          of canteen dosa, mess food, or online orders throughout the week. 
+          This led to the idea of launching a lunch box delivery service featuring home-cooked, 
+          delicious, and budget-friendly meals. Conducting market research, 
+          I discovered that many bachelors faced challenges in obtaining quality meals.
+          Motivated to address this need, I took the initiative to establish my own 
+          lunch box delivery service, aiming to fill the market gap and cater specifically 
+          to individuals seeking a reliable source of tasty and wholesome homemade meals 
+          delivered directly to their doorstep.    </p>
 
   </div>
   

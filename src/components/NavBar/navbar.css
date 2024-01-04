@@ -11,8 +11,6 @@
     position: sticky;
     top: 0;
     z-index: 3;
-   
-
 }
 .logo {
     object-fit: cover;
@@ -84,6 +82,16 @@
 }
 
 @media screen  and (max-width: 720px){
+.navbar{
+    height: 4rem;
+    padding: 0.0rem 0.0rem;
+}
+
+    .logo{
+        object-fit: cover;
+    height: 2rem;
+    width: 4rem;
+    }
     .mobMenu{
         display: flex;
 

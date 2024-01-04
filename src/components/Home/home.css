@@ -3,25 +3,52 @@
    align-content: center;
    background-color: rgb(255, 191, 0);
   }
-  
+
+  .mission-text{
+   font-size: 3rem;
+   justify-content: center;
+   color: orangered;
+   padding-left: 5rem;
+   padding-top: 10rem;
+   padding-right: 5rem;
+   text-align: center;
+   font-weight: bold;
+   font-style: italic;
+}
+
+.veg-img{
+   height: 10rem;
+   width: 10rem;
+}
+   
   @media screen  and (max-width:840px) {
    
    .rectangle{
-      height: 10rem;
+      height: 6rem;
    }
    
    .veg-img{
-      height: 5rem;
-      width: 5rem;
+      height: 2.6rem;
+      width: 2.6rem;
    }
 
    .text-img{
-      font-size: 3.5rem;
+      font-size: 2.5rem;
       font-weight: bold;
    }
 
+   .mission-text{
+      font-size: 0.8rem;
+      justify-content: center;
+      color: orangered;
+      padding-left: 1rem;
+      padding-top: 1rem;
+      padding-right: 1rem;
+      text-align: center;
+      font-weight: bold;
+      font-style: italic;
+  }
 
-   
 
 }
 

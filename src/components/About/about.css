@@ -1,31 +1,27 @@
 .about-container{
-    padding-top: 3rem;
-    align-content: center;
     display: flex;
    }
    
  
- .about-text{
-     
-     text-align: center;
-     padding-top: 5rem;
-    
- }
  
  .about-heading{
-     font-size: 8rem;
-     color: orangered;
+    font-size: 8rem;
+    color: orangered;
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: bold
  }
  
  .about-para {
      font-size: 2.3rem;
-     padding-left: 2rem;
-     padding-right: 2rem;
+     padding-left: 4rem;
+     padding-right: 0.1rem;
+     padding-top: 5rem;
  }
 
  .aboutImg{
-    width: 60rem;
-    height: 60rem;
+    width: 50rem;
+    height: 50rem;
  }
 
  .hindi-about{
@@ -38,21 +34,29 @@
  }
 
  @media screen  and (max-width:840px) {
+    
+    
     .aboutImg{
        
-        height: 25rem;
-        width: 15rem;
-        padding-top: 10rem;
+      padding-top: 1.5rem;
+       height: 12rem;
+       width: 12rem;
     }
     
     .about-heading{
         font-size: 2rem;
+        color: orangered;
+        text-align: center;
+        padding-top: 3rem;
+        font-weight: bold;
     }
 
     .about-para{
-        font-size: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        font-size: 0.8rem;
+        padding-top: 0.01rem;
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+        
     }
     
 }

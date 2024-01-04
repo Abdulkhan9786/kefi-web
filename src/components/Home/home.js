@@ -20,13 +20,13 @@ const Home = ()=>{
         <svg  className="rectangle" height={rectangleHeight} width="100%">
      
 
-      <image  className= "veg-img" href={chilli} x="10%" y="50%"  width={200} height={200} />
-      <image  className= "veg-img" href= {tomato} x="70%" y="50%" width={250} height={250} />
-      <image  className= "veg-img" href= {basil} x="80%" y="20%" width={250} height={250} />
-      <image  className= "veg-img" href= {mint1} x="12%" y="36%" width={100} height={100} />
-      <image  className= "veg-img" href= {pepper} x="89%" y="10%" width={200} height={200} />
-      <image  className= "veg-img" href= {cilantro} x="19%" y="10%" width={200} height={200} />
-      <image  className= "veg-img" href= {mint1} x="63%" y="36%" width={100} height={100} />
+      <image  className= "veg-img" href={chilli} x="3%" y="50%" />
+      <image  className= "veg-img" href= {tomato} x="70%" y="60%"  />
+      <image  className= "veg-img" href= {basil} x="80%" y="50%"  />
+      <image  className= "veg-img" href= {mint1} x="12%" y="36%" />
+      <image  className= "veg-img" href= {pepper} x="89%" y="10%"  />
+      <image  className= "veg-img" href= {cilantro} x="1%" y="10%"  />
+      <image  className= "veg-img" href= {mint1} x="78%" y="1%"  />
 
       <text className= "text-img"x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fill=" rgb(255, 30, 0)" fontSize="180">
         Kefi's Kitchen 
@@ -34,7 +34,12 @@ const Home = ()=>{
       
       
     </svg>  
+    
         </div>
+        <div className="mission-text">
+        " On a  mission to provide you with a healthy, flavorful, and homely 
+  meal option, making your lunch choices both convenient and fulfilling, all within a budget-friendly range. " </div>
+
   
         </section>
     );

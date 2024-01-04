@@ -12,10 +12,10 @@ const Order = ()=>{
 
     return(
       <section id='order'>
+        <div className="order-heading"> Order Now </div>
       <div className="order-container">
         <div className="ordernow">
-        <text className="order-heading"> Order Now </text>
-        <p className="order-text">Order now, and get your first order at just Rs. 109 /- (including the delivery)</p>
+        <p className="order-text">Order now, and get your first meal at just Rs. 109 /- (including the delivery)</p>
         <p className="order-text">To place your order, connect with us on Whatsapp</p>
         <a  href="https://wa.me/message/FYSHZ5HMXASZB1" >
 

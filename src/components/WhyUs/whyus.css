@@ -1,7 +1,6 @@
 .whyus-container{
     align-content: center;
     background-color: rgb(255, 166, 0);
-   
 
 }
 .whyus-image{
@@ -22,6 +21,7 @@
     font-size: 8rem;
     color: rgb(255, 30, 0);
     text-align: center;
+    font-weight: bold;
 }
 
 .point-heading{
@@ -43,7 +43,7 @@
        
         height: 10rem;
         width: 10rem;
-        
+        padding-right: 2rem;
     }
 
     .whyus-text{

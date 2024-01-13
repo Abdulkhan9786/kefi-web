@@ -7,13 +7,11 @@ const Whyus = ()=>{
     
   
     return(
-      <section id='whyus'>
-        
-         
+      <section className="whyus-section" id='whyus'> 
       <div className="whyus-container" >
-      <div className="whyus-heading"> Why Choose us ? </div>
         <div className="whyus-contain"><img className="whyus-image" src={whyImage} alt="why choose us "></img>
         <div className="whyus-text">
+        <div className="whyus-heading"> Why Choose us ? </div>
             <p className="whyus-para">With various alternatives such as mess services, Swiggy, Zomato, etc., 
             offering similar services, you might wonder why choose us? Here's why: </p>
             <p className="point-desc"> <text className="point-heading">Distinctive Menu:</text> Meticulously planned two weeks in advance for a diverse culinary experience.</p> 

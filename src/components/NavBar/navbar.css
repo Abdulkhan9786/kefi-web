@@ -18,7 +18,7 @@
     width: 10rem;
 }
 .navbarMenuItemList{
-    color:red;
+    color:#f6660e;
     margin: 1rem;
     cursor: pointer;
     justify-content: space-evenly;
@@ -59,7 +59,7 @@
     padding: 0.5rem;
     height: fit-content;
     min-width: 15rem;
-    background: rgb(40, 40, 40);
+    background: #ffbf00;
     border-radius: 1rem;
 }
 

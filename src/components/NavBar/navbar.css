@@ -34,7 +34,8 @@
 .navbarMenuItem:hover{
     text-decoration-line: underline;
     text-decoration-color: orangered;
-    text-decoration-thickness: 0.2rem;
+    text-decoration-thickness: 0.1rem;
+    color:#ffbf00;
 }
 
 .navbarMenuIcons{
@@ -44,7 +45,7 @@
     
 }
 .mobMenu {
-    display: none;
+    display: none !important;
     object-fit: cover;
     height: 1.8rem;
 }
@@ -81,7 +82,7 @@
 
 }
 
-@media screen  and (max-width: 720px){
+@media screen  and (max-width: 1000px){
 .navbar{
     height: 4rem;
     padding: 0.0rem 0.0rem;
@@ -93,8 +94,7 @@
     width: 4rem;
     }
     .mobMenu{
-        display: flex;
-
+        display: block !important;
     }
     .navbarMenuItemList{
         display: none;
